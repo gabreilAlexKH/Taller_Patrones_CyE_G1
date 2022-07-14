@@ -1,4 +1,10 @@
-package serviciosPresenciales;
+package serviciosVirtuales;
+
+import serviciosPresenciales.SubClientes;
+import serviciosPresenciales.SubDeudas;
+import serviciosPresenciales.SubCuentas;
+import serviciosPresenciales.SubPagos;
+
 
 public class TiendaFacade {
 	
@@ -22,6 +28,9 @@ public class TiendaFacade {
 		
 		float saldo = 0;
 		
+		//Llamadas a clases de servicioPresenciales
+
+		
 		return saldo;
 	}
 	
@@ -29,11 +38,17 @@ public class TiendaFacade {
 		
 		float deuda = 0;
 		
+		Object cliente = SubClientes.getCliente(ID);
+		
+		deuda = SubDeudas.getDeudaClient(cliente);
+		
 		return deuda;
 	}
 	
 	public void abonar(String ID, float pago) {
 		
+		//Acceder a SubCliente
+		//Acceder a SubPagos
 		
 	}
 }

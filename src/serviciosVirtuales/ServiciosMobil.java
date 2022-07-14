@@ -1,4 +1,4 @@
-package serviciosPresenciales;
+package serviciosVirtuales;
 
 public class ServiciosMobil {
 	
