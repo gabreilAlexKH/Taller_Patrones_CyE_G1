@@ -4,10 +4,6 @@ package factory;
 
 
 public class PatronesDisenio {
-
-
-
-
     
     public interface Card{
         void payment();

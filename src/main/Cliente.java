@@ -13,6 +13,14 @@ public class Cliente {
 	public static void main(String[] args) {
 		
 		//Solisitud de targetas
+		/* Logica incompleta no tocar
+
+		CreditCard factoryTargeta;
+		
+		factoryTargeta = new CreditCardPremium();
+
+		factoryTargeta.payment();
+		*/
 				
 		//Uso de servicios virtuales
 		String ID = "1725869524";
