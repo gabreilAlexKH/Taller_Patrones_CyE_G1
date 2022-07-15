@@ -1,6 +1,5 @@
 
-package espol.ed.patronesdisenio;
-
+package factory;
 
 public class PremiumCard implements PatronesDisenio.Card {
 

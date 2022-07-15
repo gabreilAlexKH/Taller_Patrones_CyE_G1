@@ -3,7 +3,7 @@ package Decorator;
 public class Mensaje implements Notificacion {
 
 	public Mensaje() {
-		notificar();
+		
 	}
 	
 	@Override

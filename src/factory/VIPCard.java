@@ -1,6 +1,5 @@
 
-package espol.ed.patronesdisenio;
-
+package factory;
 
 public class VIPCard implements PatronesDisenio.Card {
 

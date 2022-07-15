@@ -1,6 +1,7 @@
 package Decorator;
 
 public abstract class NotificacionAdicional implements Notificacion {
+
 	private Notificacion notificacion;
 	
 	public NotificacionAdicional(Notificacion notificacion) {
@@ -9,8 +10,8 @@ public abstract class NotificacionAdicional implements Notificacion {
 
 	@Override
 	public void notificar() {
-		// TODO Auto-generated method stub
 		
+		notificacion.notificar();
 	}
 
 }

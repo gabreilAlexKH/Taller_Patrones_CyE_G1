@@ -1,8 +1,6 @@
 
 
-package espol.ed.patronesdisenio;
-
-
+package factory;
 
 
 public class PatronesDisenio {
