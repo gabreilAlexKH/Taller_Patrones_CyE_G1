@@ -4,13 +4,12 @@ public class Signal extends NotificacionAdicional {
 
 	public Signal(Notificacion notificacion) {
 		super(notificacion);
-		// TODO Auto-generated constructor stub
+		notificar();
 	}
 
 	@Override
 	public void notificar() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Signal enviado");		
 	}
 
 }

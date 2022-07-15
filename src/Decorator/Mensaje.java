@@ -2,9 +2,13 @@ package Decorator;
 
 public class Mensaje implements Notificacion {
 
+	public Mensaje() {
+		notificar();
+	}
+	
 	@Override
 	public void notificar() {
-		// TODO Auto-generated method stub
+		System.out.println("SMS y correo enviados");
 		
 	}
 
